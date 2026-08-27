@@ -1,185 +1,377 @@
-README - Centralized Learning Hub
-Welcome
+# 📚 Centralized Training Hub
 
-The Centralized Learning Hub repository is the single source of truth for all training-related content.
+Welcome to the Centralized Training Hub, your one-stop location for training schedules, recordings, presentations, guides, and learning resources.
 
-The repository contains:
+Whether you attended a training session and need the recording, or you're looking to learn a new technology, this repository is designed to help you quickly find what you need.
 
-📅 Monthly Training Calendars
-🎥 Training Recordings
-📚 Training Materials
+---
 
-Whether you attended a training session, missed a training, or are looking for reference material, use the steps below to quickly locate the required content.
+# 📂 Repository Structure
 
-Repository Structure
-Centralized Learning Hub
+```text
+Centralized Training Hub
 │
-├── Training Calendars
+├── Training Calendar
 │   ├── 2026
 │   ├── 2027
 │   └── ...
 │
 ├── Training Videos
-│   ├── Tableau
-│   ├── Power BI
-│   ├── Power Automate
-│   ├── Copilot
-│   ├── Snowflake
-│   └── Other
+│   ├── 2026
+│   │   ├── Tableau
+│   │   ├── Power BI
+│   │   ├── Power Automate
+│   │   ├── Copilot
+│   │   └── Other
+│   ├── 2027
+│   └── ...
 │
-├── Training Materials
-│   ├── Tableau
-│   ├── Power BI
-│   ├── Power Automate
-│   ├── Copilot
-│   ├── Snowflake
-│   └── Other
-│
-└── Training Index
-    └── Training_Index.xlsx
-
-Recommended Method: Use the Training Index
-
-The fastest way to find a training recording or material is through the Training Index.
-
-The Training Index contains:
-
-Training Name
-Technology
-Training Date
-Trainer
-Recording Location
-Material Location
-
-Simply search the training name and open the associated links.
-
-Example: Finding "Snowflake Foundation"
-
-Suppose you attended Snowflake Foundation training in June 2026.
-
-Method 1: Using Training Index (Recommended)
-Open Training_Index.xlsx
-Search for Snowflake Foundation
-Locate the training entry.
-Open the Recording Link or Material Link.
-Method 2: Using the Calendar
-Open:
-Training Calendars
-└── 2026
-    └── 2026-06 Training Calendar.pdf
-
-Locate Snowflake Foundation in the calendar.
-Note the technology category (Snowflake).
-Navigate to:
-Training Videos
-└── Snowflake
-
-
-Or:
-
-Training Materials
-└── Snowflake
-
-How to Find Training Calendars
-
-Training calendars are organized by year.
-
-Example:
-
-Training Calendars
-└── 2026
-    ├── month Training Calendar.pdf
-    ├── month Training Calendar.pdf
+└── Training Materials
+    ├── 2026
+    │   ├── Tableau
+    │   ├── Power BI
+    │   ├── Power Automate
+    │   ├── Copilot
+    │   └── Other
+    ├── 2027
     └── ...
+```
 
+---
 
-Use the calendar to view:
+# 🚀 Quick Start
 
-Upcoming Trainings
-Session Dates
-Training Names
-Trainers
-How to Find Training Videos
+## Looking for a Training Recording?
 
-Training recordings are organized by Technology and Training Name.
+Navigate to:
 
-Example:
-
-Training Videos
-└── Snowflake
-    ├── 2026-06-10 Snowflake_foundation.mp4
-    └── 2026-06-15 Snowflake_foundation.mp4
-
-How to Find Training Materials
-
-Training materials follow the same structure as videos.
+```text
+Training Videos → Year → Technology
+```
 
 Example:
 
-Training Materials
-└── Snowflake
-    └── Snowflake Foundation
-        ├── Presentation.pdf
-        ├── User Guide.pdf
-        └── Exercise Files.xlsx
+```text
+Training Videos → 2026 → Copilot
+```
 
-Search Tips
+---
 
-Use SharePoint Search and search by:
+## Looking for Training Documents?
 
-Training Name
-Snowflake Foundation
-Copilot Fundamentals
-Power BI Basics
+Navigate to:
 
-Technology
-Snowflake
-Copilot
+```text
+Training Materials → Year → Technology
+```
+
+Example:
+
+```text
+Training Materials → 2026 → Power BI
+```
+
+Available content may include:
+
+- Presentation Decks
+- User Guides
+- Reference Materials
+- Hands-on Exercises
+- FAQs
+
+---
+
+## Looking for a Past Training Session?
+
+Navigate to:
+
+```text
+Training Calendar → Year
+```
+
+Locate the training date or training title to find:
+
+- Session Details
+- Trainer Information
+- Recording Link
+- Training Material Link
+
+---
+
+# 🔍 Search Tips
+
+Use the repository search and search with any of the following:
+
+### Technology
+
+```text
+Tableau
 Power BI
 Power Automate
-Tableau
+Copilot
+```
 
-Trainer Name
+### Training Name
+
+```text
+Power BI Fundamentals
+```
+
+### Trainer Name
+
+```text
 John Smith
+```
 
-Training Date
-2026-06
+### Date
 
-File Naming Standards
-Training Calendar
-Month Training Calendar.pdf
+```text
+2026-03-15
+```
 
+### Keyword
+
+```text
+Dashboard
+Automation
+Reporting
+AI
+Data Visualization
+```
+
+---
+
+# 📝 File Naming Standards
+
+To improve searchability and consistency, use the following naming convention.
+
+### Training Recording
+
+```text
+YYYY-MM-DD_TrainingName_Recording
+```
 
 Example:
-Month Training Calendar.pdf
 
-Training Recording
-YYYY-MM-DD Training Name Recording
+```text
+2026-05-12_CopilotForBusiness_Recording
+```
 
+### Presentation Material
+
+```text
+YYYY-MM-DD_TrainingName_Presentation
+```
 
 Example:
 
-2026-06-10 Snowflake Foundation Recording.mp4
+```text
+2026-05-12_CopilotForBusiness_Presentation
+```
 
-Training Material
-Training Name - Material Type
+### User Guide
 
+```text
+YYYY-MM-DD_TrainingName_UserGuide
+```
 
-Examples:
+Example:
 
-Snowflake Foundation - Presentation.pdf
-Snowflake Foundation - User Guide.pdf
-Snowflake Foundation - Exercise.xlsx
+```text
+2026-05-12_CopilotForBusiness_UserGuide
+```
 
-Quick Reference
-Need	LocationTraining Schedule	Training Calendars
-Session Recording	Training Videos
-Presentation Slides	Training Materials
-User Guides	Training Materials
-Fastest Search Option	Training Index.xlsx
-Best Practice
+---
 
-✅ Use the Training Index first.
+# ❓Can't Find Something?
 
-The Training Index provides a single searchable catalog of all trainings and allows users to quickly locate recordings and materials without navigating through multiple folders.
+Before reaching out for support:
 
+✅ Search by training title
+
+✅ Search by trainer name
+
+✅ Search by technology name
+
+✅ Check the relevant year folder
+
+✅ Review the Training Calendar entry
+
+If the content is still unavailable, contact the repository owner or training coordinator.
+
+---
+
+# 🌟 Recommended Improvements
+
+The following improvements will make the repository easier for both technical and non-technical users.
+
+## 1. Create a Training Catalog
+
+Maintain a single searchable file:
+
+```text
+Training Catalog.xlsx
+```
+
+Suggested fields:
+
+- Training Name
+- Technology
+- Trainer
+- Date
+- Skill Level
+- Recording Link
+- Material Link
+- Duration
+- Tags
+
+This eliminates the need to browse multiple folders.
+
+---
+
+## 2. Add Learning Paths
+
+```text
+Learning Paths
+│
+├── Beginner
+├── Intermediate
+└── Advanced
+```
+
+Example:
+
+### Copilot Learning Path
+
+1. Introduction to Copilot
+2. Prompt Engineering Basics
+3. Copilot for M365 Apps
+4. Advanced Use Cases
+5. Automation & Productivity
+
+---
+
+## 3. Add User-Based Navigation
+
+```text
+Start Here
+│
+├── New Joiners
+├── Business Users
+├── Analysts
+├── Developers
+└── Managers
+```
+
+This allows users to find relevant training without knowing the technology name.
+
+---
+
+## 4. Add Standard Tags
+
+Apply searchable tags to every training.
+
+Example:
+
+```text
+#tableau
+#powerbi
+#copilot
+#automation
+#dashboard
+#reporting
+#analytics
+#beginner
+#advanced
+```
+
+---
+
+## 5. Store Session Assets Together
+
+Instead of separating videos and materials, create session-based folders.
+
+```text
+2026-06-15_TableauDashboardTraining
+│
+├── Recording
+├── Presentation
+├── Exercise Files
+├── Documentation
+└── FAQs
+```
+
+Users get everything related to the session in one place.
+
+---
+
+## 6. Build a Training Landing Page (Recommended)
+
+If hosted on SharePoint:
+
+- 🔎 Global Search
+- 📅 Upcoming Trainings
+- ⭐ Popular Trainings
+- 🆕 Latest Recordings
+- 🎓 Learning Paths
+- 📊 Training Statistics
+
+---
+
+## 7. Add Metadata for Better Search
+
+For SharePoint-based repositories, create metadata columns:
+
+- Training Title
+- Technology
+- Trainer
+- Department
+- Skill Level
+- Training Type
+- Year
+- Keywords
+
+Users can then filter content without navigating folders.
+
+---
+
+# 🎯 Best Practice Structure (Recommended)
+
+```text
+Training Hub
+│
+├── Start Here
+│   ├── New Joiners
+│   ├── Business Users
+│   ├── Analysts
+│   ├── Developers
+│   └── Managers
+│
+├── Learning Paths
+│
+├── Training Catalog
+│
+├── Training Calendar
+│
+├── Technologies
+│   ├── Tableau
+│   ├── Power BI
+│   ├── Power Automate
+│   ├── Copilot
+│   └── Other
+│
+└── Resources
+    ├── Recordings
+    ├── Presentations
+    ├── User Guides
+    ├── Exercises
+    └── FAQs
+```
+
+---
+
+## 📌 Goal
+
+Make training content easy to discover, easy to search, and easy to consume for everyone, regardless of their technical background.
+
+Happy Learning! 🎓
